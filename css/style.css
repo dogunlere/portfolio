@@ -1,4 +1,56 @@
 * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-style: normal;
     margin: 0;
     padding: 0;
+}
+
+.container {
+    margin: auto;
+    padding: auto;
+}
+
+.hero {
+    background-color: #1f2937;
+    height: 375px;
+    color: #f9faf8;
+}
+
+button {
+    color: #ffffff;
+    background-color: #3882f6;
+    padding: 6px 28px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight:bolder;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.call {
+    border: 2px solid;
+    background-color: #2883fb;
+    margin: 30px 0;
+    color: #f9faf8;
+}
+
+footer {
+    display: flex;
+    background-color: #1f2937;
+    height: 50px;
+    color: #f9faf8;
+    align-items: center;
+    justify-content: center;
 }
