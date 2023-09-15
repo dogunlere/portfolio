@@ -20,8 +20,10 @@
 button {
     color: #ffffff;
     background-color: #3882f6;
-    padding: 6px 28px;
+    padding: 10px 40px;
+    border: 1px solid #f9faf8;
     border-radius: 5px;
+    margin: 10px;
 }
 
 h1 {
@@ -29,6 +31,10 @@ h1 {
     font-size: 48px;
     color: #f9faf8;
     font-weight:bolder;
+}
+
+p {
+    margin: 2px;
 }
 
 h2 {
@@ -39,11 +45,39 @@ h3 {
     font-size: 18px;
 }
 
+.quote {
+    background-color: #e5e7eb;
+    height: 450px;
+    margin: 10% 0;
+
+}
+
+.quote-text {
+    padding: 20px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    order: 2;
+}
+
 .call {
-    border: 2px solid;
+    border: none;
     background-color: #2883fb;
-    margin: 30px 0;
+    padding: 10px;
+    border-radius: 8px;
     color: #f9faf8;
+    box-sizing: border-box;
+    margin: 0 25%;
+}
+
+.call-button {
+    display: flex;
+    justify-content: flex-end;
 }
 
 footer {
@@ -53,4 +87,5 @@ footer {
     color: #f9faf8;
     align-items: center;
     justify-content: center;
+    margin-top: 10%;
 }
